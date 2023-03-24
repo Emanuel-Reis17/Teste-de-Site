@@ -153,7 +153,6 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    margin: 5px;
     border-radius: 50%;
     
 } 
@@ -166,8 +165,6 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    margin: 5px;
-    margin: 5px;
     border-radius: 50%;
 }
 
@@ -179,7 +176,6 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    margin: 5px;
     border-radius: 50%;
 }
 
@@ -191,7 +187,6 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    margin: 5px;
     border-radius: 50%;
 }
 
@@ -203,7 +198,6 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    margin: 5px;
     border-radius: 50%;
 }
 
@@ -215,7 +209,6 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    margin: 5px;
     border-radius: 50%;
 }
 
@@ -227,7 +220,6 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    margin: 5px;
     border-radius: 50%;
 }
 
@@ -239,7 +231,6 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    margin: 5px;
     border-radius: 50%;
 }
 
@@ -315,7 +306,6 @@ section#galeria > div.festas > p {
 section#forms {
     text-align: left;
     background-color: gray;
-    padding-left: 10px;
 }
 
 section#forms > h2 {
@@ -327,7 +317,6 @@ section#forms > h2 {
 section#forms > form label, input {
     display: block;
     margin-bottom: 10px;
-    cursor: pointer;
 }
 
 section#forms > form input {
