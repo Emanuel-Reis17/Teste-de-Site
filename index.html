@@ -16,18 +16,18 @@
         <input type="text" name="" id="navegacao" placeholder="...">
         <input type="submit" value="Buscar">
         <nav>
-            <span class="material-symbols-outlined" onclick="clickMenu()">
+            <span id="itens" class="material-symbols-outlined" onclick="clickMenu()">
                 menu
                 </span>
             <ul id="menu">
-                <li>Bem-Vindos</li>
-                <li>Nossa Cidade</li>
-                <li>Turismo</li>
-                <li>Pousada/Hotéis</li>
-                <li>Restaurantes</li>
-                <li>Galeria de Fotos</li>
-                <li>Contatos</li>
-                <li>Acesso</li>
+                <li><a href="#">Bem-Vindos</a></li>
+                <li><a href="#">Nossa Cidade</a></li>
+                <li><a href="#">Turismo</a></li>
+                <li><a href="#">Pousadas/Hotéis</a></li>
+                <li><a href="#">Restaurantes</a></li>
+                <li><a href="#">Galeria de Fotos</a></li>
+                <li><a href="#">Contatos</a></li>
+                <li><a href="#">Acesso</a></li>
             </ul>
         </nav>
     </header>
@@ -131,13 +131,6 @@
         <p></p>
     </footer>
     <script>
-        function clickMenu() {
-            if (itens.style.display == 'block') {
-                itens.style.display = 'none'
-            } else {
-                itens.style.display = 'block'
-            }
-        }
     </script>
 </body>
 </html>
