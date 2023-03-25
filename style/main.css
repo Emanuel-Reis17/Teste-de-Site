@@ -73,12 +73,20 @@ header > input[type=submit] {
 nav {
     text-align: center;
     color: white;
-    margin-top: 20px;
     padding: 5px;
 }
 
-#menu > li {
+span#itens {
     display: block;
+    color: white;
+    cursor: pointer;
+}
+
+#menu {
+    display: none;
+}
+
+#menu ul li {
     text-align: center;
     background-color: var(--cor3);
     font-family: var(--font1);
@@ -86,7 +94,12 @@ nav {
     border: 1px solid black;
 }
 
-#menu > li > a {
+#menu ul li:hover {
+    background-color: white;
+    color: var(--cor3);
+}
+
+#menu ul li a {
     text-decoration: none;
     color: white;
 }

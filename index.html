@@ -15,11 +15,11 @@
             </span></h1>
         <input type="text" name="" id="navegacao" placeholder="...">
         <input type="submit" value="Buscar">
-        <nav>
-            <span id="itens" class="material-symbols-outlined" onclick="clickMenu()">
-                menu
-                </span>
-            <ul id="menu">
+        <span id="itens" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+        <nav id="menu">
+            <ul>
                 <li><a href="#">Bem-Vindos</a></li>
                 <li><a href="#">Nossa Cidade</a></li>
                 <li><a href="#">Turismo</a></li>
@@ -98,6 +98,15 @@
             </form>
         </section>
     </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display ='block'
+            }
+        }
+    </script>
     <footer>
         <h1 id="logomarca-menor"><span>Viajjy</span>.com</h1>
         <ul>
@@ -130,7 +139,5 @@
         <p></p>
         <p></p>
     </footer>
-    <script>
-    </script>
 </body>
 </html>
