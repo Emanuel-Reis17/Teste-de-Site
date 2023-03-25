@@ -41,6 +41,7 @@ header {
     color: white;
     font-family: var(--font1);
     font-size: 2em;
+    padding: 10px 0px;
 }
 
 #logomarca > span {
@@ -79,7 +80,7 @@ nav {
 span#itens {
     display: block;
     color: white;
-    padding-bottom: 10px;
+    padding: 10px 0px;
     cursor: pointer;
 }
 
