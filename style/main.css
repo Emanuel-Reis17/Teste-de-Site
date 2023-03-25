@@ -242,13 +242,23 @@ section#turismo {
 }
 
 #hotel {
+    position: relative;
     background-image: url('../images/hotel-fasano-salvador-vista.jpg');
+    background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 300px;
     max-width: 100%;
-    margin: 5px;
+}
+
+#hotel > h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-shadow: 1px 1px 3px black;
+    font-size: 2em;
+    transform: translate(-50%, -50%);
 }
 
 iframe {
@@ -264,10 +274,47 @@ section#gastronomia > h2 {
     color: var(--cor5);
     font-size: 1em;
 }
-
-section#gastronomia > div.comida {
+/*Não encontrei outra "solução" ao não ser esta :( */
+section#gastronomia > div.comida1 {
     display: inline-block;
-    background-color: #03a4e3;background-position: center center;
+    background-image: url('../images/Acarajé.png');
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+section#gastronomia > div.comida2 {
+    display: inline-block;
+    background-image: url('../images/camarão-frito-com-casca.jpg');
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+section#gastronomia > div.comida3 {
+    display: inline-block;
+    background-image: url('../images/moqueca-de-peixe-baiana.jpg');
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+section#gastronomia > div.comida4 {
+    display: inline-block;
+    background-image: url('../images/POSTA-DE-PEIXE-COM-FRITAS.webp');
+    background-position: center center;
     background-size: cover;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
@@ -280,10 +327,11 @@ section#galeria {
     background-color: var(--cor5);
 }
 
-section#galeria > div.festas {
+section#galeria > div.festas1 {
     display: inline-block;
     position: relative;
-    background-color: #03a4e3;background-position: center center;
+    background-image: url('../images/11.jpg');
+    background-position: center center;
     background-size: cover;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
@@ -292,13 +340,100 @@ section#galeria > div.festas {
     border-radius: 50%;
 }
 
-section#galeria > div.festas > p {
+section#galeria > div.festas2 {
+    display: inline-block;
+    position: relative;
+    background-image: url('../images/12.jpg');
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+section#galeria > div.festas3 {
+    display: inline-block;
+    position: relative;
+    background-image: url('../images/Post\ Instagram\ Oferta\ de\ Promoção\ de\ Produto\ 50%\ OFF.jpg');
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+section#galeria > div.festas4 {
+    display: inline-block;
+    position: relative;
+    background-image: url('../images/10.jpg');
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+section#galeria > div.festas5 {
+    display: inline-block;
+    position: relative;
+    background-image: url('../images/13.jpg');
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+section#galeria > .festas1 > p {
     position: absolute;
     top: 50%;
     left: 50%;
     color: white;
     font-weight: 500;
-    line-height: 15px;
+    transform: translate(-50%, -50%);
+}
+
+.festas2 > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-weight: 500;
+    transform: translate(-50%, -50%);
+}
+
+.festas3 > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-weight: 500;
+    transform: translate(-50%, -50%);
+}
+
+.festas4 > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-weight: 500;
+    transform: translate(-50%, -50%);
+}
+
+.festas5 > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-weight: 500;
     transform: translate(-50%, -50%);
 }
 
@@ -378,4 +513,10 @@ footer > p#direitos {
     background-color: black;
     color: white;
     padding: 5px;
+}
+
+footer > p#direitos > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
