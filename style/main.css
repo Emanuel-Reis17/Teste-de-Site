@@ -169,6 +169,12 @@ section#principal > p > span.destaque {
     font-weight: bold;
 }
 
+section#turismo {
+    background-color: white;
+    position: static;
+    padding: 0px 10px;
+}
+
 /*Não encontrei outra "solução" ao não ser esta :( */
 .imagens1 {
     display: inline-block;
@@ -181,11 +187,7 @@ section#principal > p > span.destaque {
     border-radius: 10px;
 } 
 
-section#turismo {
-    background-color: white;
-    position: static;
-    padding: 0px 10px;
-}
+
 
 .imagens2 {
     display: inline-block;
@@ -266,11 +268,6 @@ section#turismo {
 
 h2 {
     color: var(--cor3);
-}
-
-section#turismo {
-    background-color: white;
-    padding: 0px 10px;
 }
 
 section#turismo > h2 {
