@@ -79,6 +79,7 @@ nav {
 span#itens {
     display: block;
     color: white;
+    padding-bottom: 10px;
     cursor: pointer;
 }
 
@@ -141,12 +142,6 @@ section#principal {
     background-color: white;
 }
 
-
-
-section#principal > #container {
-}
-
-
 /*Não encontrei outra "solução" ao não ser esta :( */
 .imagens1 {
     display: inline-block;
@@ -156,7 +151,7 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    border-radius: 50%;
+    border-radius: 10px;
     
 } 
 
@@ -168,7 +163,7 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .imagens3 {
@@ -179,7 +174,7 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .imagens4 {
@@ -190,7 +185,7 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .imagens5 {
@@ -201,7 +196,7 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .imagens6 {
@@ -212,7 +207,7 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .imagens7 {
@@ -223,7 +218,7 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .imagens8 {
@@ -234,7 +229,7 @@ section#principal > #container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
     height: 150px;
     width: 150px;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 h2 {
@@ -309,6 +304,7 @@ section#galeria > div.festas > p {
 section#forms {
     text-align: left;
     background-color: gray;
+    padding: 5px;
 }
 
 section#forms > h2 {
@@ -317,9 +313,12 @@ section#forms > h2 {
     margin-bottom: 20px;
 }
 
+section#forms > form {
+    margin: 0px 0px 10px 10px;
+}
+
 section#forms > form label, input {
     display: block;
-    margin-bottom: 10px;
 }
 
 section#forms > form input {
@@ -329,12 +328,13 @@ section#forms > form input {
 }
 
 section#forms > form input[type=submit] {
+    display: block;
     background-color: var(--cor3);
     color: white;
+    width: 100%;
     font-weight: bold;
     padding: 10px;
     border: none;
-
 }
 
 footer {
