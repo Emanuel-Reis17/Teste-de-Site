@@ -260,7 +260,7 @@
 
     iframe {
         height: 300px;
-        width: 100%;
+        width: 90%;
     }
 
     section#gastronomia {
@@ -353,7 +353,7 @@
     section#galeria > div.festas3 {
         display: inline-block;
         position: relative;
-        background-image: url('../images/Post\ Instagram\ Oferta\ de\ Promoção\ de\ Produto\ 50%\ OFF.jpg');
+        background-image: url('../images/14.jpg');
         background-position: center center;
         background-size: cover;
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.494);
