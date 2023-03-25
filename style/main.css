@@ -157,6 +157,7 @@ section#principal > div#foto {
 
 section#principal > p {
     text-align: justify;
+    margin-bottom: 30px;
 }
 
 section#principal > p > a {
