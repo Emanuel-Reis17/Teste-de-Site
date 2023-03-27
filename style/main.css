@@ -1,0 +1,305 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'manuscrita';
+    src: url('../fonts/Breathing.ttf') format('truetype');
+}
+
+:root {
+    --color1: #F2DFD7;
+    --color2: #da7239;
+    --color3: #0075C4;
+    --color4: #034d8d;
+    --color5: #1e2432;
+
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: 'Poppins', cursive;
+    --font2: 'manuscrita', cursive;
+}
+
+* {
+    font-family: var(--font1);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--color4);
+    padding: 10px;
+}
+
+h1.logo {
+    display: inline;
+    text-align: left;
+    color: white;
+}
+
+header > h1.logo > span {
+    color: var(--color2);
+}
+
+header > nav#navegacao > ul > li {
+    display: inline;
+}
+
+header > nav#navegacao > ul > li > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header > nav#navegacao > ul > li > a:hover {
+    background-color: white;
+    color: var(--color2);
+    font-weight: 600;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.476);
+    transition: 0.4s;
+}
+
+main > section {
+    height: 500px;
+}
+
+main > section#banner {
+    position: relative;
+    background-image: url('../images/Encante-se-com-alguns-dos-lugares-mais-bonitos-em-Salvador.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+h2 {
+    color: var(--color2);
+}
+
+section#banner > article{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+
+    transform: translate(-50%, -50%);
+}
+
+section#banner > article > h1 {
+    font-family: var(--font2);
+    font-size: 70px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.481);
+}
+
+section#banner > article > h2 {
+    font-weight: 300;
+    color: white;
+}
+
+section#intro {
+    background-color: var(--color3);
+}
+
+section#intro > div#foto {
+    background-image: url('../images/pconheca-salvador-e-se-apaixone-pela-capital-baiana.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;background-size: cover;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+section#intro > div#texto {
+    float: right;
+    text-align: justify;
+    color: white;
+    height: 100%;
+    width: 50%;
+    font-weight: 600;
+    padding: 15px;
+
+}
+
+section#intro > div#texto > h2 {
+    font-size: 3.4em;
+}
+
+section#intro > div#texto > p > a {
+    color: var(--color2);
+}
+
+section#turismo {
+    position: relative;
+    text-align: center;
+    background-color: var(--color4);
+    padding: 20px;
+}
+
+div#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 800px;
+    transform: translate(-50%, -50%);
+}
+
+section#turismo > div#container > div.img {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 5px;
+    background-color: var(--color5);
+}
+
+section#pousada > div#texto2 {
+    position: relative;
+    background-color: #0075C4;
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+section#pousada > div#texto2 > article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+section#pousada > div#texto2 > article > h2 {
+    font-size: 3.8em;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+section#pousada > div#texto2 > article > p {
+    color: white;
+}
+
+section#pousada > div#texto2 > article > p > span {
+    color: var(--color2);
+    font-weight: 800;
+}
+
+section#pousada > iframe {
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+
+section#gastronomia {
+    position: relative;
+    text-align: center;
+    background-color: var(--color2);
+    padding: 20px;
+}
+
+section#gastronomia > h2 {
+    color: white;
+}
+
+section#gastronomia > div#container2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1000px;
+
+    transform: translate(-50%, -50%);
+}
+
+section#gastronomia > div#container2 > div.comida {
+    display: inline-block;
+    background-color: var(--color5);
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+    border-radius: 50%;
+}
+
+section#galeria {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+section#galeria > div#container3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1100px;
+    transform: translate(-50%, -50%);
+}
+
+section#galeria > div#container3 > div.festas {
+    display: inline-block;
+    background-color: var(--color5);
+    height: 190px;
+    width: 190px;
+    margin: 2px;
+    border-radius: 50%;
+}
+
+section#forms {
+    text-align: center;
+    background-color: rgb(118, 117, 117);
+    color: white;
+}
+
+section#forms > h2 {
+    color: white;
+    padding: 10px;
+}
+
+section#forms > form {
+    text-align: left;
+    margin-left: 40px;
+}
+
+section#forms > form > p {
+    margin-bottom: 20px;
+}
+
+section#forms > label, input {
+    display: block;
+}
+
+footer {
+    background-color: var(--color5);
+    padding-top: 20px;
+}
+
+footer > h1.logo {
+    padding: 20px;
+}
+
+footer > h1.logo > span {
+    color: var(--color2);
+}
+
+footer > ul {
+    color: white;
+    list-style-type: none;
+    columns: 3;
+    margin: 10px 0px 10px 30px;
+}
+
+footer p, address {
+    text-align: right;
+    color: white;
+    margin: 20px 0px;
+}
+
+footer > p#criador {
+    text-align: center;
+    background-color: black;
+}
+
+footer > p#criador > a {
+    color: white;
+    font-weight: 700;
+}
