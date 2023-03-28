@@ -167,5 +167,9 @@ html {
         text-align: left;
         margin-left: 10px;
     }
-    
+
+    footer > ul {
+        margin: 10px 0px;
+        font-size: 0.7em;
+    }
 }
