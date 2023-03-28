@@ -26,6 +26,11 @@
     box-sizing: border-box;
 }
 
+html {
+    width: 100%;
+    height: 100%;
+}
+
 header {
     background-color: var(--color4);
     padding: 10px;
@@ -39,6 +44,12 @@ h1.logo {
 
 header > h1.logo > span {
     color: var(--color2);
+}
+
+header > nav#navegacao > span#menu {
+    display: none;
+    text-align: center;
+    cursor: pointer;
 }
 
 header > nav#navegacao > ul > li {
@@ -129,6 +140,7 @@ section#intro > div#texto > h2 {
 
 section#intro > div#texto > p > a {
     color: var(--color2);
+    font-weight: bold;
 }
 
 section#turismo {
@@ -153,6 +165,10 @@ section#turismo > div#container > div.img {
     width: 160px;
     margin: 5px;
     background-color: var(--color5);
+}
+
+section#pousada {
+    background-color: #0075C4;
 }
 
 section#pousada > div#texto2 {
@@ -224,7 +240,7 @@ section#gastronomia > div#container2 > div.comida {
 section#galeria {
     position: relative;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 section#galeria > div#container3 {
@@ -291,15 +307,18 @@ footer > ul {
 footer p, address {
     text-align: right;
     color: white;
-    margin: 20px 0px;
+    font-size: 0.7em;
+    margin: 20px 5px;
 }
 
 footer > p#criador {
     text-align: center;
     background-color: black;
+    margin: 0px;
 }
 
 footer > p#criador > a {
     color: white;
     font-weight: 700;
+    
 }

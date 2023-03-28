@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+* {
+    font-family: var(--font1);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1125px) {
+
+    header > nav#navegacao > ul > li > a {
+        font-size: 0.9em;
+    }
+
+    section#intro > div#texto > p {
+        font-weight: 500;
+        font-size: 1em;
+    }
+
+    section#intro > div#texto > p > a {
+        font-weight: bold;
+    }
+
+    div#container2 {
+        max-width: 900px;
+    }
+    
+    div#container3 {
+        max-width: 780px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    div#container {
+        max-width: 100%;
+    }
+
+    section#pousada > iframe {
+        height: 300px;
+        transform: translateY(35%);
+    }
+
+    section#gastronomia {
+        padding: 5px;
+    }
+
+    div#container2 {
+        max-width: 80%;
+    }
+
+    div#container3 {
+        max-width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+
+    header > nav#navegacao > span#menu {
+        display: block;
+        color: white;
+    }
+
+    header > nav#navegacao > ul#list {
+        display: none;
+    }
+
+    header > nav#navegacao > ul#list > li {
+        display: block;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    section#intro, section#turismo, section#pousada, section#gastronomia, section#galeria {
+        height: 900px;
+        float: none;
+        text-align: center;
+    }   
+
+    section#intro {
+        padding-top: 10px;
+    }
+
+    section#intro > div#foto {
+        display: block;
+        float: none;
+        height: 300px;
+        width: 400px;
+        margin: auto;
+    }
+
+    section#intro > div#texto {
+        float: none;
+        margin: auto;
+        width: 90%;
+    }
+
+    section#turismo {
+        padding-top: 10px;
+    }
+
+    section#turismo > div#container {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    section#pousada {
+        height: 600px;
+    }
+
+    section#pousada > div#texto2 {
+        display: block;
+        float: none;
+        height: 50%;
+        margin: auto;
+    }
+
+    section#pousada > iframe {
+        display: block;
+        float: none;
+        height: 50%;
+        margin: auto;
+        width: 100%;
+    }
+
+
+    div#container2, div#container3 {
+        max-width: 100%;
+    }
+
+    section#gastronomia {
+        height: 630px;
+    }
+
+    section#galeria {
+        height: 740px;
+    }
+}

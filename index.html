@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/medias.css">
     <title>Conheça Salvador</title>
 </head>
 <body>
     <header>
         <h1 class="logo">Air<span>plane</span>.com</h1>
         <nav id="navegacao">
-            <ul>
+            <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">
+                menu
+                </span>
+            <ul id="list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Bem-vindos</a></li>
                 <li><a href="#">Nossa cidade</a></li>
@@ -23,6 +27,15 @@
                 <li><a href="#">Acesso</a></li>
             </ul>
         </nav>
+        <script>
+            function clickMenu() {
+                if (list.style.display == 'none') {
+                    list.style.display = 'block'
+                } else {
+                    list.style.display = 'none'
+                }
+            }
+        </script>
     </header>
     <main>
         <section id="banner">
