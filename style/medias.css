@@ -117,10 +117,6 @@ html {
         text-align: center;
     }
 
-    section#turismo > div#container > div.img {
-        height: ;
-    }
-
     section#pousada {
         height: 600px;
     }
@@ -168,8 +164,9 @@ html {
         margin-left: 10px;
     }
 
-    footer > ul {
-        margin: 10px 0px;
+    footer > ul > li {
+        margin: auto;
         font-size: 0.7em;
     }
+
 }
