@@ -158,7 +158,14 @@ html {
         width: 140px;
         height: 140px;
     }
+
     section#galeria {
         height: 740px;
     }
+
+    section#forms > form {
+        text-align: left;
+        margin-left: 10px;
+    }
+    
 }
