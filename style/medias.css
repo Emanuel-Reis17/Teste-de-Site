@@ -57,7 +57,7 @@
 
 }
 
-@media screen and (min-width: 500px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     header > nav#navegacao > span#menu {
         display: block;
