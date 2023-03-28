@@ -94,7 +94,7 @@ html {
         display: block;
         float: none;
         height: 300px;
-        width: 400px;
+        width: 95%;
         margin: auto;
     }
 
@@ -104,6 +104,10 @@ html {
         width: 90%;
     }
 
+    p {
+        font-size: 0.9em;
+    }
+
     section#turismo {
         padding-top: 10px;
     }
@@ -111,6 +115,10 @@ html {
     section#turismo > div#container {
         max-width: 100%;
         text-align: center;
+    }
+
+    section#turismo > div#container > div.img {
+        height: ;
     }
 
     section#pousada {
@@ -141,6 +149,15 @@ html {
         height: 630px;
     }
 
+    section#gastronomia > div#container2 > div.comida {
+        height: 150px;
+        width: 150px;
+    }
+
+    section#galeria > div#container3 > div.festas {
+        width: 140px;
+        height: 140px;
+    }
     section#galeria {
         height: 740px;
     }
