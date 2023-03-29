@@ -75,7 +75,7 @@ html {
 @media screen and (max-width: 768px) {
 
     section#gastronomia > div#container2 {
-        min-height: 300px;
+        height: 300px;
     }
 
     header > nav#navegacao > span#menu {
