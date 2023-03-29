@@ -78,6 +78,11 @@ html {
         height: 300px;
     }
 
+    div.comida1, div.comida2, div.comida3, div.comida4, div.comida5 {
+        width: 150px;
+        height: 150px;
+    }
+
     header > nav#navegacao > span#menu {
         display: block;
         color: white;
