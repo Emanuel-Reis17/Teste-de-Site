@@ -40,6 +40,10 @@ html {
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    section#gastronomia > div#container2 {
+        min-height: 350px;
+    }
     
     section#banner, .slides {
         max-height: 480px;
@@ -69,6 +73,10 @@ html {
 }
 
 @media screen and (max-width: 768px) {
+
+    section#gastronomia > div#container2 {
+        min-height: 300px;
+    }
 
     header > nav#navegacao > span#menu {
         display: block;

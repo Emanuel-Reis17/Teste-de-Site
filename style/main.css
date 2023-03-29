@@ -280,6 +280,7 @@ section#gastronomia > div#container2 {
     top: 50%;
     left: 50%;
     width: 1000px;
+    height: 200px;
 
     transform: translate(-50%, -50%);
 }
@@ -290,6 +291,66 @@ section#gastronomia > div#container2 > div.comida {
     height: 200px;
     width: 200px;
     margin: 2px;
+    border-radius: 50%;
+}
+
+div.comida1 {
+    display: inline-block;
+    background-image: url('../images/Acarajé.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+div.comida2 {
+    display: inline-block;
+    background-image: url('../images/POSTA-DE-PEIXE-COM-FRITAS.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+div.comida3 {
+    display: inline-block;
+    background-image: url('../images/camarão-frito-com-casca.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+div.comida4 {
+    display: inline-block;
+    background-image: url('../images/moqueca-de-peixe-baiana.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+div.comida5 {
+    display: inline-block;
+    background-image: url('../images/moqueca-de-peixe-baiana.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
     border-radius: 50%;
 }
 
@@ -333,11 +394,19 @@ section#forms > form {
 }
 
 section#forms > form > p {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 section#forms > label, input {
     display: block;
+}
+
+section#forms input[type=submit] {
+    background-color: var(--color2);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
 }
 
 footer {
