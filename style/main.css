@@ -9,8 +9,8 @@
 
 :root {
     --color1: #F2DFD7;
-    --color2: #da7239;
-    --color3: #0075C4;
+    --color2: #e08a5c;
+    --color3: #07619d;
     --color4: #034d8d;
     --color5: #1e2432;
 
@@ -77,6 +77,26 @@ main > section {
     height: 500px;
 }
 
+section#turismo > div#container > div:hover {
+    height: 170px;
+    width: 170px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.445);
+    transition: 0.4s;
+}
+
+section#gastronomia > div#container2 > div:hover {
+    width: 195px;
+    height: 195px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+    transition: 0.4s;
+}
+
+section#galeria > div#container3 > div:hover {
+    height: 200px;
+    width: 200px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.445);
+    transition: 0.4s;
+}
 
 main > section#banner {
     position: relative;
@@ -215,12 +235,100 @@ div#container {
     transform: translate(-50%, -50%);
 }
 
-section#turismo > div#container > div.img {
+section#turismo > div#container > div {
     display: inline-block;
     height: 160px;
     width: 160px;
     margin: 5px;
     background-color: var(--color5);
+}
+
+div.img1 {
+    background-image: url('../images/rafael-martins_govba_ok.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+div.img2 {
+    background-image: url('../images/pvista-aerea-salvador-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+div.img3 {
+    background-image: url('../images/pelourinho-salvador-bahia.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+div.img4 {
+    background-image: url('../images/Encante-se-com-alguns-dos-lugares-mais-bonitos-em-Salvador.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+div.img5 {
+    background-image: url('../images/fundacao-casa-de-jorge-amado.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+div.img6 {
+    background-image: url('../images/pgrande-salvador.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+div.img7 {
+    background-image: url('../images/images.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+div.img8 {
+    background-image: url('../images/mercado-modelo.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    border-radius: 50%;
 }
 
 section#pousada {
@@ -267,7 +375,7 @@ section#pousada > iframe {
 section#gastronomia {
     position: relative;
     text-align: center;
-    background-color: var(--color2);
+    background-color: #d67846;
     padding: 20px;
 }
 
@@ -368,7 +476,7 @@ section#galeria > div#container3 {
     transform: translate(-50%, -50%);
 }
 
-section#galeria > div#container3 > div.festas {
+section#galeria > div#container3 > div {
     display: inline-block;
     background-color: var(--color5);
     height: 190px;
@@ -377,36 +485,109 @@ section#galeria > div#container3 > div.festas {
     border-radius: 50%;
 }
 
+div.festas1 {
+    background-image: url('../images/10.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.festas2 {
+    background-image: url('../images/11.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.festas3 {
+    background-image: url('../images/12.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+div.festas4 {
+    background-image: url('../images/13.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.festas5 {
+    background-image: url('../images/14.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 section#forms {
+    position: relative;
     text-align: center;
-    background-color: rgb(118, 117, 117);
+    background-color: gray;
     color: white;
+    height: 600px;
 }
 
 section#forms > h2 {
     color: white;
-    padding: 10px;
+    font-size: 1.8em;
+    padding-top: 10px;
 }
 
 section#forms > form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     text-align: left;
-    margin-left: 40px;
+
+    transform: translate(-50%, -50%);
 }
 
-section#forms > form > p {
-    margin-bottom: 15px;
-}
-
-section#forms > label, input {
+section#forms > form > label, input {
     display: block;
+    width: 600px;
+    height: 40px;
+    margin-bottom: 10px;
 }
 
-section#forms input[type=submit] {
-    background-color: var(--color2);
-    color: white;
-    padding: 5px;
+section#forms > form input, textarea {
+    text-indent: 5px;
     border: none;
     border-radius: 5px;
+}
+
+section#forms > form > p.button {
+    text-align: right;
+}
+
+section#forms > form > p.button > input {
+    display: inline-block;
+    background-color: var(--color2);
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
+
+section#forms > form > p.button > input[type=reset] {
+    background-color: white;
+    color: var(--color2);
+}
+
+section#forms > form > p.button > input:hover {
+    background-color: white;
+    color: var(--color2);
+    width: 120px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.461);
+    transition: 0.4s;
+}
+
+section#forms > form > p.button > input[type=reset]:hover {
+    background-color: var(--color2);
+    color: white;
+    width: 120px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.461);
+    transition: 0.4s;
 }
 
 footer {
@@ -429,11 +610,18 @@ footer > ul {
     margin: 10px 0px 10px 30px;
 }
 
-footer p, address {
-    text-align: right;
+footer address {
+    text-align: center;
     color: white;
     font-size: 0.7em;
-    margin: 20px 5px;
+    margin: 30px 0px 5px 0px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+    margin: 5px 0px 10px 0px;
 }
 
 footer > p#criador {
