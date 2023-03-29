@@ -15,6 +15,7 @@ html {
 
 @media screen and (min-width: 992px) and (max-width: 1125px) {
 
+    
     header > nav#navegacao > ul > li > a {
         font-size: 0.9em;
     }
@@ -40,6 +41,10 @@ html {
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     
+    section#banner, .slides {
+        max-height: 480px;
+    }
+
     div#container {
         max-width: 100%;
     }
@@ -78,6 +83,14 @@ html {
         display: block;
         text-align: center;
         font-size: 2em;
+    }
+
+    article > h1, h2 {
+        font-size: 1em;
+    }
+
+    section#banner, .slides {
+        max-height: 300px;
     }
 
     section#intro, section#turismo, section#pousada, section#gastronomia, section#galeria {
